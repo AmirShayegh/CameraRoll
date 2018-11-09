@@ -1,0 +1,6 @@
+framework module Pods_CameraRoll_Example {
+  umbrella header "Pods-CameraRoll_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

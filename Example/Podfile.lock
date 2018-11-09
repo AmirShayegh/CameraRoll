@@ -1,0 +1,16 @@
+PODS:
+  - CameraRoll (0.1.0)
+
+DEPENDENCIES:
+  - CameraRoll (from `../`)
+
+EXTERNAL SOURCES:
+  CameraRoll:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CameraRoll: 77246077e29f74369578c907e9bacb076c0f39bb
+
+PODFILE CHECKSUM: 34171d9fc195e72169780aad6a1b1a3d6df53a2c
+
+COCOAPODS: 1.6.0.beta.1

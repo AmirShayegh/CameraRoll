@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042C03AF81F9B4CF72CFF2A377FA32CB /* CameraRoll.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF97E4A79B6F22912CA15A42FCEABF5C /* CameraRoll.bundle */; };
+		238E80306042747B066BBEFFA7A4A2FE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B513C71538B3E796E0557BDF44943 /* ReplaceMe.swift */; };
+		2477130FE65C45523851374AE5900B21 /* Pods-CameraRoll_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6368CC1BE34F42FF7EDC39DF5028F3D /* Pods-CameraRoll_Example-dummy.m */; };
+		2A9B19FE2913C26588C0D51328833BC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		301A71A9F59BEF0FCBE5B56D3FCB77F7 /* ChooseImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2EB2C96EB152D7E8F45503ECBB1463 /* ChooseImageViewController.swift */; };
+		3F3DD599B5ADA47DC4907C924BBB8AA5 /* CameraRoll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4255A14F5CEE2F3EB6764851A1193DF0 /* CameraRoll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5559420FD866911E1AD820A140481210 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		78173DB1DFB91AEFFAA47068E8265DED /* GalleryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17A4CE66459029900CCEF293CC0D2AD /* GalleryManager.swift */; };
+		7F8E7AA572CE3A9CCCE60FF9B46D627C /* CameraRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F5D12DEAD603C15AD5ADDAB51BE585 /* CameraRoll.swift */; };
+		85CD41FEF2821E1CA996E362A8F8A268 /* GalleryMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C1512F384ADBED2B90F18E1F38A11 /* GalleryMode.swift */; };
+		9362C2107BF00B4440859562BF106AE7 /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DE587FBA3FD8AC19CE83D8A4FB0920 /* AssetManager.swift */; };
+		9CC5DC985C8C18A639753858146552DA /* GalleryImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0786927181FAB98814976DF7F1E36587 /* GalleryImageCollectionViewCell.xib */; };
+		AEFC33A217D64D6A9A5E4FDA77764600 /* GalleryImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF0C5545ABCAB9611EE74196D5CD48A /* GalleryImageCollectionViewCell.swift */; };
+		B80C1595827321E26440C28F6AD47981 /* Pods-CameraRoll_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A95BD3638EC49A335C65D6E30DA455 /* Pods-CameraRoll_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C07C3CA8BBFE8DC9C620B6A4C29EB001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C29B06C2CB4564E2126FCAC6548ECDD2 /* ChooseImage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F190E2F1FDEDE7439B82C8F7D0617C80 /* ChooseImage.storyboard */; };
+		D06E97D7D825516ED2DC5827F0E2F662 /* Pods-CameraRoll_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2B686590F160DEE22D268ABD978C65 /* Pods-CameraRoll_Tests-dummy.m */; };
+		D7087C83F129EE0FB251E3F72E9C9CF2 /* Pods-CameraRoll_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E0668BCCDB2F47771FAF70F48E3523 /* Pods-CameraRoll_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE1B33858AB954907833CE2684973A48 /* CameraRoll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE822D724FF9AFF572D387E1A9F59173 /* CameraRoll-dummy.m */; };
+		FCFA93B557096DA085DF4E0C25DCF8D0 /* PHAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27217FB16CE3DCE9D4784E3BD6CDE6A5 /* PHAsset.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0133FD1CC573873887D2A1E045AEE222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7357586D05D88EBF39E1C1B5D41EDE;
+			remoteInfo = "CameraRoll-CameraRoll";
+		};
+		03082F8079FB19864FA5F6D5D5B75ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3016AE62544D799A50D11D092ABF7816;
+			remoteInfo = CameraRoll;
+		};
+		1FAB599E469974ED043432EE1CD00D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F048FF4AEDFD5C33D18DB38FB40FC494;
+			remoteInfo = "Pods-CameraRoll_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BDE71C30801301B63DB7A61F12C9A4 /* CameraRoll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CameraRoll.modulemap; sourceTree = "<group>"; };
+		0786927181FAB98814976DF7F1E36587 /* GalleryImageCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = GalleryImageCollectionViewCell.xib; path = CameraRoll/Classes/GalleryImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		1237729023D4BD9130B0025798594858 /* Pods-CameraRoll_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CameraRoll_Example-Info.plist"; sourceTree = "<group>"; };
+		27217FB16CE3DCE9D4784E3BD6CDE6A5 /* PHAsset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PHAsset.swift; path = CameraRoll/Classes/PHAsset.swift; sourceTree = "<group>"; };
+		35066DCD84415EAF912F944A62D2D23D /* Pods-CameraRoll_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CameraRoll_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		42458D8482806BF8F1C9ABCFE05D9AB1 /* Pods-CameraRoll_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraRoll_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4255A14F5CEE2F3EB6764851A1193DF0 /* CameraRoll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraRoll-umbrella.h"; sourceTree = "<group>"; };
+		46B508E0E151AB497053751C593A36BF /* CameraRoll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CameraRoll.xcconfig; sourceTree = "<group>"; };
+		55F5D12DEAD603C15AD5ADDAB51BE585 /* CameraRoll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraRoll.swift; path = CameraRoll/Classes/CameraRoll.swift; sourceTree = "<group>"; };
+		570C1512F384ADBED2B90F18E1F38A11 /* GalleryMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GalleryMode.swift; path = CameraRoll/Classes/GalleryMode.swift; sourceTree = "<group>"; };
+		57CFF5CFD4F2EECD6B56E68F14B85827 /* Pods-CameraRoll_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CameraRoll_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58FF5A7BD7D2DDE95BF2902FB1240218 /* Pods-CameraRoll_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraRoll_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B2B686590F160DEE22D268ABD978C65 /* Pods-CameraRoll_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CameraRoll_Tests-dummy.m"; sourceTree = "<group>"; };
+		5BF0C5545ABCAB9611EE74196D5CD48A /* GalleryImageCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GalleryImageCollectionViewCell.swift; path = CameraRoll/Classes/GalleryImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		605D0155D89CD70184B29852E3A3E790 /* Pods-CameraRoll_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CameraRoll_Tests-Info.plist"; sourceTree = "<group>"; };
+		6B85C4E98C991FDBB38153E95942850D /* Pods-CameraRoll_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraRoll_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73E0668BCCDB2F47771FAF70F48E3523 /* Pods-CameraRoll_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CameraRoll_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7F626B6F7B206B568ECC85AAF554F38F /* Pods_CameraRoll_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CameraRoll_Tests.framework; path = "Pods-CameraRoll_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC8F2A623288CF6FA2F2A1EBB503F09 /* Pods-CameraRoll_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CameraRoll_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D8B513C71538B3E796E0557BDF44943 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CameraRoll/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2EB2C96EB152D7E8F45503ECBB1463 /* ChooseImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChooseImageViewController.swift; path = CameraRoll/Classes/ChooseImageViewController.swift; sourceTree = "<group>"; };
+		A3763B8EAB6D0AC8FBC62855A0DF0F50 /* Pods-CameraRoll_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CameraRoll_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3A95BD3638EC49A335C65D6E30DA455 /* Pods-CameraRoll_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CameraRoll_Example-umbrella.h"; sourceTree = "<group>"; };
+		A593130D232AF5D8CAD713BE2F200123 /* CameraRoll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CameraRoll-prefix.pch"; sourceTree = "<group>"; };
+		A6E662EA8DEA1D7838A54F0F5D092DAF /* Pods_CameraRoll_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CameraRoll_Example.framework; path = "Pods-CameraRoll_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C8AC1F8246A07C36DF02C40992EDD9 /* Pods-CameraRoll_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CameraRoll_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8E3652810A89F8FE6970B31E6A2992F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BCE97F05532BA4A0EA1FAE7B3AB798FA /* Pods-CameraRoll_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CameraRoll_Example.modulemap"; sourceTree = "<group>"; };
+		BF97E4A79B6F22912CA15A42FCEABF5C /* CameraRoll.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CameraRoll.bundle; path = "CameraRoll-CameraRoll.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD303C80B7EBAD786B0160710052093D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D5DE587FBA3FD8AC19CE83D8A4FB0920 /* AssetManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetManager.swift; path = CameraRoll/Classes/AssetManager.swift; sourceTree = "<group>"; };
+		D6368CC1BE34F42FF7EDC39DF5028F3D /* Pods-CameraRoll_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CameraRoll_Example-dummy.m"; sourceTree = "<group>"; };
+		D84D42611CEC1BC85FE14304E034CB00 /* CameraRoll-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CameraRoll-Info.plist"; sourceTree = "<group>"; };
+		DA84695630408207259AC56BF29CFDE1 /* CameraRoll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CameraRoll.framework; path = CameraRoll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB70CFED9FAA3D5EA5C6113E23933B94 /* Pods-CameraRoll_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CameraRoll_Tests.modulemap"; sourceTree = "<group>"; };
+		E17A4CE66459029900CCEF293CC0D2AD /* GalleryManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GalleryManager.swift; path = CameraRoll/Classes/GalleryManager.swift; sourceTree = "<group>"; };
+		EAFC1BA6E4F1F91EEFB9940B996C4ACC /* ResourceBundle-CameraRoll-CameraRoll-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CameraRoll-CameraRoll-Info.plist"; sourceTree = "<group>"; };
+		ECAFC9DF7D72589D575F4FF4D9EFD3C4 /* CameraRoll.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CameraRoll.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EE822D724FF9AFF572D387E1A9F59173 /* CameraRoll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CameraRoll-dummy.m"; sourceTree = "<group>"; };
+		F190E2F1FDEDE7439B82C8F7D0617C80 /* ChooseImage.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = ChooseImage.storyboard; path = CameraRoll/Classes/ChooseImage.storyboard; sourceTree = "<group>"; };
+		F2F37CB8CD125C70E895733940045AB8 /* Pods-CameraRoll_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CameraRoll_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1017B84659EF5E3D0325317049F22678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9B19FE2913C26588C0D51328833BC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E663CFD5197F4F6E61C37B1AA9F20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8507012E380534A1C2FB7C806D0356CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07C3CA8BBFE8DC9C620B6A4C29EB001 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95F8B903FBAD2754C8F2E99042F4D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5559420FD866911E1AD820A140481210 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66628B934F8B64904B3CF0B0291DCCD4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F190E2F1FDEDE7439B82C8F7D0617C80 /* ChooseImage.storyboard */,
+				0786927181FAB98814976DF7F1E36587 /* GalleryImageCollectionViewCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		695375CE873BBF34649BF633F24A24D1 /* Pods-CameraRoll_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BCE97F05532BA4A0EA1FAE7B3AB798FA /* Pods-CameraRoll_Example.modulemap */,
+				57CFF5CFD4F2EECD6B56E68F14B85827 /* Pods-CameraRoll_Example-acknowledgements.markdown */,
+				8BC8F2A623288CF6FA2F2A1EBB503F09 /* Pods-CameraRoll_Example-acknowledgements.plist */,
+				D6368CC1BE34F42FF7EDC39DF5028F3D /* Pods-CameraRoll_Example-dummy.m */,
+				F2F37CB8CD125C70E895733940045AB8 /* Pods-CameraRoll_Example-frameworks.sh */,
+				1237729023D4BD9130B0025798594858 /* Pods-CameraRoll_Example-Info.plist */,
+				A3A95BD3638EC49A335C65D6E30DA455 /* Pods-CameraRoll_Example-umbrella.h */,
+				42458D8482806BF8F1C9ABCFE05D9AB1 /* Pods-CameraRoll_Example.debug.xcconfig */,
+				6B85C4E98C991FDBB38153E95942850D /* Pods-CameraRoll_Example.release.xcconfig */,
+			);
+			name = "Pods-CameraRoll_Example";
+			path = "Target Support Files/Pods-CameraRoll_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B9BA1BFF6E0CC872B32231F998A97A9C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7F34F3FA78BC88AF3BC148FF9A4B1A2D /* Products */,
+				E7C1F1033354B8D2C437F0EB8AC81E38 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F34F3FA78BC88AF3BC148FF9A4B1A2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF97E4A79B6F22912CA15A42FCEABF5C /* CameraRoll.bundle */,
+				DA84695630408207259AC56BF29CFDE1 /* CameraRoll.framework */,
+				A6E662EA8DEA1D7838A54F0F5D092DAF /* Pods_CameraRoll_Example.framework */,
+				7F626B6F7B206B568ECC85AAF554F38F /* Pods_CameraRoll_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0CA8562C4AE0AF355A51960D7C100EE /* CameraRoll */ = {
+			isa = PBXGroup;
+			children = (
+				D5DE587FBA3FD8AC19CE83D8A4FB0920 /* AssetManager.swift */,
+				55F5D12DEAD603C15AD5ADDAB51BE585 /* CameraRoll.swift */,
+				9E2EB2C96EB152D7E8F45503ECBB1463 /* ChooseImageViewController.swift */,
+				5BF0C5545ABCAB9611EE74196D5CD48A /* GalleryImageCollectionViewCell.swift */,
+				E17A4CE66459029900CCEF293CC0D2AD /* GalleryManager.swift */,
+				570C1512F384ADBED2B90F18E1F38A11 /* GalleryMode.swift */,
+				27217FB16CE3DCE9D4784E3BD6CDE6A5 /* PHAsset.swift */,
+				8D8B513C71538B3E796E0557BDF44943 /* ReplaceMe.swift */,
+				EF256605C1503F6AE914CDAAECC39581 /* Pod */,
+				66628B934F8B64904B3CF0B0291DCCD4 /* Resources */,
+				B68C4AED69024C1309EEC126802C4E80 /* Support Files */,
+			);
+			name = CameraRoll;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B68C4AED69024C1309EEC126802C4E80 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00BDE71C30801301B63DB7A61F12C9A4 /* CameraRoll.modulemap */,
+				46B508E0E151AB497053751C593A36BF /* CameraRoll.xcconfig */,
+				EE822D724FF9AFF572D387E1A9F59173 /* CameraRoll-dummy.m */,
+				D84D42611CEC1BC85FE14304E034CB00 /* CameraRoll-Info.plist */,
+				A593130D232AF5D8CAD713BE2F200123 /* CameraRoll-prefix.pch */,
+				4255A14F5CEE2F3EB6764851A1193DF0 /* CameraRoll-umbrella.h */,
+				EAFC1BA6E4F1F91EEFB9940B996C4ACC /* ResourceBundle-CameraRoll-CameraRoll-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CameraRoll";
+			sourceTree = "<group>";
+		};
+		B9BA1BFF6E0CC872B32231F998A97A9C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0CA8562C4AE0AF355A51960D7C100EE /* CameraRoll */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD154A038B22A58828A5AB8C44FBFFCE /* Pods-CameraRoll_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DB70CFED9FAA3D5EA5C6113E23933B94 /* Pods-CameraRoll_Tests.modulemap */,
+				B8C8AC1F8246A07C36DF02C40992EDD9 /* Pods-CameraRoll_Tests-acknowledgements.markdown */,
+				35066DCD84415EAF912F944A62D2D23D /* Pods-CameraRoll_Tests-acknowledgements.plist */,
+				5B2B686590F160DEE22D268ABD978C65 /* Pods-CameraRoll_Tests-dummy.m */,
+				605D0155D89CD70184B29852E3A3E790 /* Pods-CameraRoll_Tests-Info.plist */,
+				73E0668BCCDB2F47771FAF70F48E3523 /* Pods-CameraRoll_Tests-umbrella.h */,
+				A3763B8EAB6D0AC8FBC62855A0DF0F50 /* Pods-CameraRoll_Tests.debug.xcconfig */,
+				58FF5A7BD7D2DDE95BF2902FB1240218 /* Pods-CameraRoll_Tests.release.xcconfig */,
+			);
+			name = "Pods-CameraRoll_Tests";
+			path = "Target Support Files/Pods-CameraRoll_Tests";
+			sourceTree = "<group>";
+		};
+		E7C1F1033354B8D2C437F0EB8AC81E38 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				695375CE873BBF34649BF633F24A24D1 /* Pods-CameraRoll_Example */,
+				BD154A038B22A58828A5AB8C44FBFFCE /* Pods-CameraRoll_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EF256605C1503F6AE914CDAAECC39581 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ECAFC9DF7D72589D575F4FF4D9EFD3C4 /* CameraRoll.podspec */,
+				B8E3652810A89F8FE6970B31E6A2992F /* LICENSE */,
+				CD303C80B7EBAD786B0160710052093D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F5018D6CBE2737A42D3E079247EA741 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80C1595827321E26440C28F6AD47981 /* Pods-CameraRoll_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C59E4A246BD2D656AF6D1C8E653F5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3DD599B5ADA47DC4907C924BBB8AA5 /* CameraRoll-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF25945C2BAA4D1535316B2D93FF3AC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7087C83F129EE0FB251E3F72E9C9CF2 /* Pods-CameraRoll_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3016AE62544D799A50D11D092ABF7816 /* CameraRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FD776A21D92F202E626FC4A65AFDD50 /* Build configuration list for PBXNativeTarget "CameraRoll" */;
+			buildPhases = (
+				51C59E4A246BD2D656AF6D1C8E653F5C /* Headers */,
+				03F7D40EF403D0376FEFC7E7F580262B /* Sources */,
+				1017B84659EF5E3D0325317049F22678 /* Frameworks */,
+				B88F423BA2BFE13110191CA5E6A77355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FB2178229336F2598265D18C2708D3A /* PBXTargetDependency */,
+			);
+			name = CameraRoll;
+			productName = CameraRoll;
+			productReference = DA84695630408207259AC56BF29CFDE1 /* CameraRoll.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A7357586D05D88EBF39E1C1B5D41EDE /* CameraRoll-CameraRoll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23DEA5B262F2B7192BC998870C6A8D0B /* Build configuration list for PBXNativeTarget "CameraRoll-CameraRoll" */;
+			buildPhases = (
+				D63745FCB9F5FC86688ED231E03956C2 /* Sources */,
+				59E663CFD5197F4F6E61C37B1AA9F20A /* Frameworks */,
+				0B86DE511F57CF1B08EFAA78087283C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CameraRoll-CameraRoll";
+			productName = "CameraRoll-CameraRoll";
+			productReference = BF97E4A79B6F22912CA15A42FCEABF5C /* CameraRoll.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D8BE2EF95FC024BC3EC12CF089391C7E /* Pods-CameraRoll_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A95F20357B47264A9D78944FAD98165 /* Build configuration list for PBXNativeTarget "Pods-CameraRoll_Tests" */;
+			buildPhases = (
+				FF25945C2BAA4D1535316B2D93FF3AC8 /* Headers */,
+				611C57D09E483A7DBF16DBFC3F5BB3F4 /* Sources */,
+				8507012E380534A1C2FB7C806D0356CF /* Frameworks */,
+				8E9B83E2918F45C960077630B57CC1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95A156B740A1AD9A53A66D3085C9C731 /* PBXTargetDependency */,
+			);
+			name = "Pods-CameraRoll_Tests";
+			productName = "Pods-CameraRoll_Tests";
+			productReference = 7F626B6F7B206B568ECC85AAF554F38F /* Pods_CameraRoll_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F048FF4AEDFD5C33D18DB38FB40FC494 /* Pods-CameraRoll_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3610559A1A7FAF48537D5E497362F3B1 /* Build configuration list for PBXNativeTarget "Pods-CameraRoll_Example" */;
+			buildPhases = (
+				4F5018D6CBE2737A42D3E079247EA741 /* Headers */,
+				29E35B31B78DF9FEBB94348558F36FC9 /* Sources */,
+				D95F8B903FBAD2754C8F2E99042F4D41 /* Frameworks */,
+				BC550E3BF13C0683E0BC2E70D8AD36A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46067AE3A38A3780FFF4E9C5D8DFFB81 /* PBXTargetDependency */,
+			);
+			name = "Pods-CameraRoll_Example";
+			productName = "Pods-CameraRoll_Example";
+			productReference = A6E662EA8DEA1D7838A54F0F5D092DAF /* Pods_CameraRoll_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7F34F3FA78BC88AF3BC148FF9A4B1A2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3016AE62544D799A50D11D092ABF7816 /* CameraRoll */,
+				5A7357586D05D88EBF39E1C1B5D41EDE /* CameraRoll-CameraRoll */,
+				F048FF4AEDFD5C33D18DB38FB40FC494 /* Pods-CameraRoll_Example */,
+				D8BE2EF95FC024BC3EC12CF089391C7E /* Pods-CameraRoll_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B86DE511F57CF1B08EFAA78087283C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29B06C2CB4564E2126FCAC6548ECDD2 /* ChooseImage.storyboard in Resources */,
+				9CC5DC985C8C18A639753858146552DA /* GalleryImageCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9B83E2918F45C960077630B57CC1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88F423BA2BFE13110191CA5E6A77355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042C03AF81F9B4CF72CFF2A377FA32CB /* CameraRoll.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC550E3BF13C0683E0BC2E70D8AD36A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F7D40EF403D0376FEFC7E7F580262B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9362C2107BF00B4440859562BF106AE7 /* AssetManager.swift in Sources */,
+				EE1B33858AB954907833CE2684973A48 /* CameraRoll-dummy.m in Sources */,
+				7F8E7AA572CE3A9CCCE60FF9B46D627C /* CameraRoll.swift in Sources */,
+				301A71A9F59BEF0FCBE5B56D3FCB77F7 /* ChooseImageViewController.swift in Sources */,
+				AEFC33A217D64D6A9A5E4FDA77764600 /* GalleryImageCollectionViewCell.swift in Sources */,
+				78173DB1DFB91AEFFAA47068E8265DED /* GalleryManager.swift in Sources */,
+				85CD41FEF2821E1CA996E362A8F8A268 /* GalleryMode.swift in Sources */,
+				FCFA93B557096DA085DF4E0C25DCF8D0 /* PHAsset.swift in Sources */,
+				238E80306042747B066BBEFFA7A4A2FE /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E35B31B78DF9FEBB94348558F36FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2477130FE65C45523851374AE5900B21 /* Pods-CameraRoll_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611C57D09E483A7DBF16DBFC3F5BB3F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06E97D7D825516ED2DC5827F0E2F662 /* Pods-CameraRoll_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63745FCB9F5FC86688ED231E03956C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FB2178229336F2598265D18C2708D3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CameraRoll-CameraRoll";
+			target = 5A7357586D05D88EBF39E1C1B5D41EDE /* CameraRoll-CameraRoll */;
+			targetProxy = 0133FD1CC573873887D2A1E045AEE222 /* PBXContainerItemProxy */;
+		};
+		46067AE3A38A3780FFF4E9C5D8DFFB81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CameraRoll;
+			target = 3016AE62544D799A50D11D092ABF7816 /* CameraRoll */;
+			targetProxy = 03082F8079FB19864FA5F6D5D5B75ADD /* PBXContainerItemProxy */;
+		};
+		95A156B740A1AD9A53A66D3085C9C731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CameraRoll_Example";
+			target = F048FF4AEDFD5C33D18DB38FB40FC494 /* Pods-CameraRoll_Example */;
+			targetProxy = 1FAB599E469974ED043432EE1CD00D32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26B952897C07800C63D779FB8ABF40D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B85C4E98C991FDBB38153E95942850D /* Pods-CameraRoll_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CameraRoll_Example/Pods-CameraRoll_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CameraRoll_Example/Pods-CameraRoll_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54C83447955B11A596EF4E8F1FCBF5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B508E0E151AB497053751C593A36BF /* CameraRoll.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CameraRoll";
+				INFOPLIST_FILE = "Target Support Files/CameraRoll/ResourceBundle-CameraRoll-CameraRoll-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CameraRoll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		815A16BBF4FFEAB5D6058267B0BDDCFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FF5A7BD7D2DDE95BF2902FB1240218 /* Pods-CameraRoll_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CameraRoll_Tests/Pods-CameraRoll_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CameraRoll_Tests/Pods-CameraRoll_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		865A4756F28943C3F887F1DCFB3FC7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B508E0E151AB497053751C593A36BF /* CameraRoll.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CameraRoll/CameraRoll-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CameraRoll/CameraRoll-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CameraRoll/CameraRoll.modulemap";
+				PRODUCT_MODULE_NAME = CameraRoll;
+				PRODUCT_NAME = CameraRoll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6A6EDBEF6748C2249F2E2156EE9D7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42458D8482806BF8F1C9ABCFE05D9AB1 /* Pods-CameraRoll_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CameraRoll_Example/Pods-CameraRoll_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CameraRoll_Example/Pods-CameraRoll_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C92782E717C52E3633C9A5F211E7987A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C9778A814BD830FE4E4970FB7E68111E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3763B8EAB6D0AC8FBC62855A0DF0F50 /* Pods-CameraRoll_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CameraRoll_Tests/Pods-CameraRoll_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CameraRoll_Tests/Pods-CameraRoll_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E58FAB3DA4D9382DAAE2CFDFD711B09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B508E0E151AB497053751C593A36BF /* CameraRoll.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CameraRoll/CameraRoll-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CameraRoll/CameraRoll-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CameraRoll/CameraRoll.modulemap";
+				PRODUCT_MODULE_NAME = CameraRoll;
+				PRODUCT_NAME = CameraRoll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA8C7AF90938697605468604B2A17B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FC815FCE71FC59F05ED72C74CC8E2AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B508E0E151AB497053751C593A36BF /* CameraRoll.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CameraRoll";
+				INFOPLIST_FILE = "Target Support Files/CameraRoll/ResourceBundle-CameraRoll-CameraRoll-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CameraRoll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FD776A21D92F202E626FC4A65AFDD50 /* Build configuration list for PBXNativeTarget "CameraRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865A4756F28943C3F887F1DCFB3FC7D2 /* Debug */,
+				E58FAB3DA4D9382DAAE2CFDFD711B09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23DEA5B262F2B7192BC998870C6A8D0B /* Build configuration list for PBXNativeTarget "CameraRoll-CameraRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C83447955B11A596EF4E8F1FCBF5D9 /* Debug */,
+				FC815FCE71FC59F05ED72C74CC8E2AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92782E717C52E3633C9A5F211E7987A /* Debug */,
+				EA8C7AF90938697605468604B2A17B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3610559A1A7FAF48537D5E497362F3B1 /* Build configuration list for PBXNativeTarget "Pods-CameraRoll_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A6EDBEF6748C2249F2E2156EE9D7C3 /* Debug */,
+				26B952897C07800C63D779FB8ABF40D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A95F20357B47264A9D78944FAD98165 /* Build configuration list for PBXNativeTarget "Pods-CameraRoll_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9778A814BD830FE4E4970FB7E68111E /* Debug */,
+				815A16BBF4FFEAB5D6058267B0BDDCFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
