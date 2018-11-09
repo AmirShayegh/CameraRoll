@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CameraRoll_Example' do
+  pod 'CameraRoll', :path => '../'
+
+  target 'CameraRoll_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
