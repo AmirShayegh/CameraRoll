@@ -61,9 +61,9 @@ public class AssetManager {
         let phassets = PHAsset.fetchAssets(with: .video, options: options)
         phassets.enumerateObjects { (asset, count, stop) in
             phCache.append(asset)
-            if phCache.count == phassets.count {
-                phCache.reverse()
-            }
+//            if phCache.count == phassets.count {
+//                phCache.reverse()
+//            }
         }/*
          phassets.enumerateObjects { (asset, count, stop) in
          // LIMIST SIZE
